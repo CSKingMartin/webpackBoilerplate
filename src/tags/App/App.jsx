@@ -1,9 +1,9 @@
 const App = () => {
 	return (
 		<div className="App">
-			Hello World!
+			{props.children}
 		</div>
 	)
 }
 
-export default App;
+module.exports = App;

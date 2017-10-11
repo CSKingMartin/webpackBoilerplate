@@ -26,7 +26,7 @@ if (module.hot) {
       <AppContainer>
         <NextApp/>
       </AppContainer>,
-      document.getElementById('root')
+      document.getElementById('page')
     );
   });
 }
