@@ -1,6 +1,13 @@
-const App = () => {
+import createClassStack from '@Helpers/createClassStack';
+
+let classStack = createClassStack([
+  'App',
+  'App--default'
+]);
+
+const App = (props) => {
 	return (
-		<div className="App">
+		<div className={classStack}>
 			{props.children}
 		</div>
 	)

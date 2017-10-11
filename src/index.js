@@ -10,7 +10,9 @@ import App from '@Tags/App/App.jsx';
 const render = () => {
 	ReactDOM.render(
 			<AppContainer>
-				<App />
+				<App>
+          Hello World!
+        </App>
 			</AppContainer>,
 		document.getElementById('page')
 	);

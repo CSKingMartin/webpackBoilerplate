@@ -50,6 +50,7 @@ module.exports = {
       '@Containers': path.resolve(__dirname, 'src/containers/'),
       '@Reducers': path.resolve(__dirname, 'src/reducers/'),
       '@Tags': path.resolve(__dirname, 'src/tags/'),
+      '@Helpers': path.resolve(__dirname, 'src/helpers')
     }
   }
 }
